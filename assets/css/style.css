@@ -292,12 +292,16 @@ footer {
         bottom: 10px; */
         background-color: #ffffff;
     }
-
-    .col1of3 {
-            width: 100%
+    .col1of3, .col2of3 {
+        width: 100%;
+        text-align: center;
     }
-    
-    .col3of3, .col2of3 {
-            width: 0%;
+
+    .col3of3 {
+        width: 0%;
+    }
+
+    td {
+        float: left;
     }
 }
