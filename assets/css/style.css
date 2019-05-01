@@ -208,6 +208,13 @@ footer {
         top: 30px;
         right: 40px;
     }
+    .col1of3, .col2of3 {
+        width: 50%
+    }
+
+    .col3of3 {
+        width: 0%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -246,6 +253,14 @@ footer {
         top: 30px;
         right: 40px;
     }
+
+    .col1of3, .col2of3 {
+        width: 50%
+    }
+
+    .col3of3 {
+        width: 0%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -255,22 +270,34 @@ footer {
     }    
     /* change the width of the title and body to the next smaller max-width*/
     #title-content, #body-content {
-        width: 480px;
-        margin: 0 auto;
-        position: relative;
+        width: 600px;
+        height: 100%;
+        /* margin: 0 auto; */
+        position: static;
     }
     #title-text, #nav {
-        position: absolute;
+        position: static;
+        width: 100%;
+        text-align: center;
     }
     
     #title-text {
-        left: 0px;
-        bottom: 0px;
+        /* left: 0px;
+        bottom: 0px; */
         background-color: #4aaaa5;
         height: 100%;
     }
     #nav {
-        right: 0px;
-        bottom: 10px;
+        /* right: 0px;
+        bottom: 10px; */
+        background-color: #ffffff;
+    }
+
+    .col1of3 {
+            width: 100%
+    }
+    
+    .col3of3, .col2of3 {
+            width: 0%;
     }
 }
