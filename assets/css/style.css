@@ -71,6 +71,7 @@ body {
 #body-wrapper {
     padding: 40px 0px;
 }
+
 #horiz-rule {
     width: 100%;
     margin: 0 auto;
@@ -170,14 +171,42 @@ footer {
     bottom: 0px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 980px) {
     /* change the BG color to see if it's working */
     header, #title-content, #body-content {
         background-color: #d6f2f4;
     }    
-    /* change the width of the title and body to the next smaller max-width*/
+
     #title-content, #body-content {
+        margin-left: 20px;
+    }
+
+    #body-wrapper {
+        clear: both;
+    }
+
+    #body-content {
         width: 720px;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    #title-content {
+        width: 100%;
+        margin-right: 40px;
+    }
+    
+    #title-text {
+        float: left;
+        top: 0px;
+        left: 0px;
+        height: 60px;
+        background-color: #4aaaa5;
+    }
+    #nav {
+        float: right;
+        top: 30px;
+        right: 40px;
     }
 }
 
@@ -186,13 +215,40 @@ footer {
     header, #title-content, #body-content {
         background-color: #cccccc;
     }    
-    /* change the width of the title and body to the next smaller max-width*/
     #title-content, #body-content {
-        width: 540px;
+        margin-left: 20px;
+    }
+
+    #body-wrapper {
+        clear: both;
+    }
+
+    #body-content {
+        width: 720px;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    #title-content {
+        width: 100%;
+        margin-right: 40px;
+    }
+    
+    #title-text {
+        float: left;
+        top: 0px;
+        left: 0px;
+        height: 60px;
+        background-color: #4aaaa5;
+    }
+    #nav {
+        float: right;
+        top: 30px;
+        right: 40px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 640px) {
     /* change the BG color to see if it's working */
     header, #title-content, #body-content {
         background-color: #aaaaaa;
@@ -200,5 +256,21 @@ footer {
     /* change the width of the title and body to the next smaller max-width*/
     #title-content, #body-content {
         width: 480px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #title-text, #nav {
+        position: absolute;
+    }
+    
+    #title-text {
+        left: 0px;
+        bottom: 0px;
+        background-color: #4aaaa5;
+        height: 100%;
+    }
+    #nav {
+        right: 0px;
+        bottom: 10px;
     }
 }
