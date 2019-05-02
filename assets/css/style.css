@@ -27,11 +27,9 @@ header {
 }
 
 body {
-    /* margin: 0px; */
     background-image: url('../images/circuit.png')
 }
 
-/* Note: will need to modify width for responsive design */
 #title-content, #body-content {
     width: 960px;
     margin: 0 auto;
@@ -132,13 +130,11 @@ a.navitem:hover {
     width: 33.3%
 }
 
-/* Note: will need to modify width for responsive design */
 .portfolio-item {
     width: 280px;
     height: 200px;
 }
 
-/* Note: will need to modify width for responsive design */
 .portfolio-item-link {
     display: inline-block;
     position: relative;
@@ -172,11 +168,6 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-    /* change the BG color to see if it's working */
-    header, #title-content, #body-content {
-        background-color: #d6f2f4;
-    }    
-
     #title-content, #body-content {
         margin-left: 20px;
     }
@@ -218,10 +209,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    /* change the BG color to see if it's working */
-    header, #title-content, #body-content {
-        background-color: #cccccc;
-    }    
     #title-content, #body-content {
         margin-left: 20px;
     }
@@ -264,15 +251,10 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-    /* change the BG color to see if it's working */
-    header, #title-content, #body-content {
-        background-color: #aaaaaa;
-    }    
-    /* change the width of the title and body to the next smaller max-width*/
     #title-content, #body-content {
         width: 600px;
         height: 100%;
-        /* margin: 0 auto; */
+        margin-left: 10px;
         position: static;
     }
     #title-text, #nav {
