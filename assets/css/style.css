@@ -266,7 +266,8 @@ footer {
     #my-photo {
         clear: both;
         width: 100%;
-        margin-right: 15px;    
+        /* margin-right: 15px;     */
+        margin-bottom: 15px;
     }
     
     #title-text {
@@ -287,6 +288,14 @@ footer {
 
     .col3of3 {
         width: 0%;
+    }
+
+    .portfolio-item, .portfolio-item-link {
+        width: 550px;
+    }
+
+    .portfolio-item {
+        height: 500px;
     }
 
     td {
